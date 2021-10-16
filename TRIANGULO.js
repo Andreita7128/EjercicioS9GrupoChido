@@ -7,12 +7,13 @@ class TRIANGULO{
     
     }
     printTriangulo(){
-        fill(0,0,180);
         triangle(this.x,this.y,this.x -50,this.y + 50,this.x +50,this.y +50);
     }
 
-   /* moverTriangulo(){
-        this.x=mouseX
-    }*/
+    click(){
+        if(dist(mouseX,mouseY,this.x+25,this.y+25)<50/2){
+            console.log("click");
+        }
+        }
 
 }
