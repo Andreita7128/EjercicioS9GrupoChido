@@ -3,7 +3,7 @@ class CIRCULO{
         this.x = x;
         this.y = y;
         this.name = name;
-        this.r = 50;
+        this.r = r;
     
     }
     printCirculo(){

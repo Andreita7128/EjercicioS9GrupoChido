@@ -1,14 +1,15 @@
 class CUADRADO {
-constructor (x,y,name,b,alto) {
+constructor (x,y,name,b) {
     this.x = x;
     this.y = y;
     this.name = name;
-    this.b = 50;
-    this.alto = 50;
+    this.b = b;
 }
 
 printCuadrado(){
     fill(180,0,0);
-    rect(this.x,this.y,this.b,this.alto);
+    rectMode(CENTER);
+    rect(this.x,this.y,this.b,this.b);
+    rectMode(CORNER);
 }
 }
