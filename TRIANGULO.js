@@ -1,10 +1,7 @@
-class TRIANGULO{
-    constructor (x,y,name) {
+class Triangulo{
+    constructor (x,y) {
         this.x = x;
-        this.y = y;
-        this.name = name;
-    
-    
+        this.y = y;    
     }
     printTriangulo(){
         triangle(this.x,this.y,this.x -50,this.y + 50,this.x +50,this.y +50);

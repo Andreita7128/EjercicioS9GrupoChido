@@ -1,10 +1,7 @@
-class ROMBO{
-    constructor (x,y,name) {
+class Rombo{
+    constructor (x,y,) {
         this.x = x;
         this.y = y;        
-        this.name = name;
-    
-    
     }
     printRombo(){
         quad(this.x,this.y,this.x +35,this.y +35,this.x,this.y +75,this.x -35,this.y + 35);

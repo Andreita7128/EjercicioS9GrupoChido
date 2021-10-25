@@ -1,8 +1,7 @@
-class CIRCULO{
-    constructor (x,y,name,r) {
+class Circulo{
+    constructor (x,y,r) {
         this.x = x;
         this.y = y;
-        this.name = name;
         this.r = r;
     
     }

@@ -1,8 +1,7 @@
-class CUADRADO {
-constructor (x,y,name,b) {
+class Cuadrado {
+constructor (x,y,b) {
     this.x = x;
     this.y = y;
-    this.name = name;
     this.b = b;
 }
 
